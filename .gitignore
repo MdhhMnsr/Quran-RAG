@@ -1,0 +1,14 @@
+# Verse text and anything built from it: not mine to publish
+data/
+vectors*.npy
+chroma_db/
+
+# Run outputs quote verse text; LangSmith links are private
+*.txt
+!questions.txt
+
+# Python, editor and secrets
+.venv/
+__pycache__/
+*.code-workspace
+.env
