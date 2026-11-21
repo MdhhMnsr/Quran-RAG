@@ -2,9 +2,10 @@
 
 Ask a question about the Quran in English, Malay or Arabic. The system finds the most relevant verses out of all 6,236, and Claude answers **only from those verses**, citing each one as `[surah:ayah]`. A check at the end flags any citation that wasn't among the verses it was given.
 
-I built the Quran-RAG with dual intention. 
-Firstly, is to answer questions I have about the Quran exactly as what it says. Not what people over time have said things about it. 
-Secondly, is to understand RAG properly with possible addition to it in the future: first in plain Python, then again in LangChain, LangGraph and LangSmith, measuring each version against the same questions.
+I built this with two intentions:
+
+1. To answer my own questions about the Quran from what the verses actually say, not from what people have said about them over time.
+2. To understand RAG properly, with room to add to it later: first in plain Python, then again in LangChain, LangGraph and LangSmith, measuring each version against the same questions.
 
 The verse data comes from my own project, [Connect The Meaning](https://connectthemeaning.netlify.app).
 
