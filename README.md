@@ -43,7 +43,7 @@ Each verse is embedded once, as its English and Malay together, and saved, so a 
 
 The Arabic vectors fixed one Arabic miss (the elephant question now finds 105:1 first) but pushed one Malay question's verse from rank 29 to 32, just outside the 30 sent to the reranker.
 
-**Caveat:** I wrote 38 of the 50 questions after building the system, and many of them use words that appear in the verses, so 90% probably overstates real-world performance. The original 12 are the stricter test.
+**Caveat:** I wrote 38 of the 50 questions after building the system, and many of them use words that appear in the verses, so 90% probably overstates real-world performance. The original 12 are the stricter test. An additional 9 "most-googled questions about the Quran" was later added. 
 
 ## What I learned
 
